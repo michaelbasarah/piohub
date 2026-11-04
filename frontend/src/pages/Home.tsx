@@ -252,7 +252,7 @@ export default function Home() {
             <span className="font-medium text-foreground">pioHub</span>
             <span>— Student Collaboration Platform</span>
           </div>
-          <p>© {new Date().getFullYear()} pioNox. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} pioNox</p>
         </div>
       </footer>
     </div>

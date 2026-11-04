@@ -53,7 +53,7 @@ stack (see docs/FOUNDATIONALPLAN.md). Code is split into two folders: `/frontend
 ## Branding
 - Product name: pioHub
 - Parent company: pioNox
-- Footer copyright: © [year] pioNox. All rights reserved.
+- Footer brand line: © [year] pioNox. The source code in this repo is MIT-licensed (see LICENSE).
 
 ## Current File Structure
 - `/frontend/src/pages/`: Home, Feed, ProjectDetail, CreateProject, EditProject,

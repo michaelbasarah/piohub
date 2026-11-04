@@ -67,7 +67,7 @@ export function generateJoinRequestEmailHtml(
         <p>Visit your dashboard to approve or reject their request.</p>
         <a href="${dashboardUrl}" class="button">View Dashboard</a>
       </div>
-      <div class="footer"><p>© 2026 pioNox. All rights reserved.</p></div>
+      <div class="footer"><p>© 2026 pioNox</p></div>
     </div></body></html>
   `;
 }
@@ -91,7 +91,7 @@ export function generateApprovalEmailHtml(projectTitle: string, projectUrl: stri
         <p>Your request to join <strong>"${escapeHtml(projectTitle)}"</strong> has been approved. You're now a member of the team!</p>
         <a href="${projectUrl}" class="button">View Project</a>
       </div>
-      <div class="footer"><p>© 2026 pioNox. All rights reserved.</p></div>
+      <div class="footer"><p>© 2026 pioNox</p></div>
     </div></body></html>
   `;
 }
@@ -114,7 +114,7 @@ export function generateRejectionEmailHtml(projectTitle: string): string {
         <p>Thank you for your interest in <strong>"${escapeHtml(projectTitle)}"</strong>. Unfortunately, your request was not accepted at this time.</p>
         <p>Don't worry — there are many other great projects on pioHub. Keep exploring!</p>
       </div>
-      <div class="footer"><p>© 2026 pioNox. All rights reserved.</p></div>
+      <div class="footer"><p>© 2026 pioNox</p></div>
     </div></body></html>
   `;
 }
